@@ -2,10 +2,10 @@
 Pokémon Card Catalogue
 
 Overview:
-This Python program enables users to store information about Pokémon cards in a searchable catalogue. By reading data from a CSV file, users can input details about each Pokémon card, including characteristics like Name, HP, Type, and more. The program allows for searches based on various criteria such as Pokémon Type, Attack Damage, HP, Abilities, and others.
+This Python program enables users to store information about Pokémon cards in a searchable catalogue. By reading data from a JSON file, users can input details about each Pokémon card, including characteristics like Name, HP, Type, and more. The program allows for searches based on various criteria such as Pokémon Type, Attack Damage, HP, Abilities, and others.
 
 Features:
-Load Pokémon card data from a CSV file.
+Load Pokémon card data from a JSON file.
 Store detailed information on Pokémon cards, excluding Trainer cards.
 Search functionality for finding Pokémon based on Type, Attack Damage, HP, Abilities, Stage of Evolution, and required Energy types for attacks.
 Interactive command-line interface for user input and queries.
@@ -16,7 +16,7 @@ No third-party libraries are used, adhering to the assignment's stipulation of u
 
 Getting Started:
 Ensure you have Python 3.9 or higher installed on your system.
-Download updated_program2.py and pokemon_card_list.csv to the same directory.
+Download updated_program2.py and pokemon_card_list.JSON to the same directory.
 Open a command-line interface (CLI) and navigate to the directory containing the downloaded files.
 
 Usage:
@@ -24,10 +24,10 @@ To run the program, execute the following command in your CLI:
 
 "python updated_program2.py"
 
-Upon launch, the program will prompt you to enter the name of the input file (pokemon_card_list.csv). Once the data is loaded, you will be presented with an interactive menu that guides you through the various search options available. Follow the on-screen instructions to search for Pokémon cards based on your criteria of interest.
+Upon launch, the program will prompt you to enter the name of the input file (pokemon_card_list.JSON). Once the data is loaded, you will be presented with an interactive menu that guides you through the various search options available. Follow the on-screen instructions to search for Pokémon cards based on your criteria of interest.
 
 Input File Format:
-The program accepts data through a CSV file named pokemon_card_list.csv. This file should include the following information for each Pokémon card:
+The program accepts data through a JSON file named pokemon_card_list.JSON. This file should include the following information for each Pokémon card:
 
 Name
 HP
